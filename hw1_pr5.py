@@ -12,7 +12,6 @@ Return the time taken for the person at position k (in 0 indexed array)
 to finish buying tickets.
 The run-time must be in O(nk).
 Example 1.
-3
 Input: tickets = [2,3,2], k = 2
 Output: 6
 Explanation:
