@@ -1,7 +1,21 @@
 import random
-''''#1.Extend the LinkedList class adding the following new methods:
-1.The method called first_index_of(x) that returns the index of the first from the left node with value x. If there is no suchnode, return None. The index here is how many nodes away from the head our node is. E.g., applying first_index_of(5) to the linked list [1 → 7 → 5 →4 → 2], we get 2; applying it to [1 → 2 → 3 → 4 → 5 → 6 → 5], we get 4. The run-time must be in O(n).
-2.The method called get_middle() that returns a list of values of the middle node(s) of a linked list. If the list has an odd number of nodes, there will be only one middle node;  therwise, there will be two middle nodes. E.g., applying get_middle() to the linked list [1 → 7 → 5 → 4 → 2], we get [5]; applying it to [1 → 2 → 3 → 4 → 5 → 6], we get [3, 4]. The run-time must be in O(n).''''
+''''#1.Extend the LinkedList class adding the following new methods:'''
+'''a)The method called first_index_of(x) that returns the
+index of the first from the left node with value x. If there is no such
+node, return None.
+The index here is how many nodes away from the head our node is.
+E.g., applying first_index_of(5) to the linked list [1 → 7 → 5 →
+4 → 2], we get 2; applying it to [1 → 2 → 3 → 4 → 5 → 6 → 5],
+we get 4.
+The run-time must be in O(n).
+b)The method called get_middle() that returns a list of
+values of the middle node(s) of a linked list. If the list has an odd
+number of nodes, there will be only one middle node; otherwise,
+there will be two middle nodes.
+E.g., applying get_middle() to the linked list [1 → 7 → 5 → 4 → 2],
+we get [5]; applying it to [1 → 2 → 3 → 4 → 5 → 6], we get [3, 4].
+The run-time must be in O(n).'''
+
 class Node:
     def __init__(self, value=None, next=None):
         self.value = value
